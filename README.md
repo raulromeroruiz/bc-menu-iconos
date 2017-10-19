@@ -2,11 +2,11 @@
 BC Menú Iconos
 
 ---
-# Menú
+## Menú
 El menú esta identificado con el id **#main-menu**
 
-Número de elementos del menú
------
+###Número de elementos del menú
+
 Para indicar el número de elementos del menú agregar una de las siguientes clases:
 
 Clase | Nro de elemtos | Ancho
@@ -46,8 +46,7 @@ Menú con 7 elementos
 </ul>
 ```
 
-Iconos
----
+###Iconos
 
 Dentro del elemento `<a>` con clase "**category**"; agregar un elemento `<span>` con clase "**icon**":
 ```
@@ -79,8 +78,9 @@ Para mostrar el icono sobre el texto en forma vertical, agregar la clase "**menu
 ![BC](http://jonquel.pe/landings/2017/plantillas-bc/horizontal-vertical.png)
 
 
-Color de fondo, textos y bordes del menú en la vista mobile
------
+**_Importante_**: Si se va a utilizar un menú con iconos y texto en sentido vertical; se debe aumentar el alto el contenedor del BC en 20px
+
+###Color de fondo, textos y bordes del menú en la vista mobile
 
 Se aplica sobre el elemento nav con clase "**nav**"
 Para indicar el color de fondo, texto y bordes; agregar una de las siguientes etiquetas:
@@ -116,8 +116,7 @@ Fondo Blanco
 ```
 
 
-Nombre de la campaña
------
+##Nombre de la campaña
 
 Indicar el nombre de la campaña en el elemento con clase "**.current-category**"
 ```
